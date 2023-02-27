@@ -1,0 +1,273 @@
+@import "variables";
+
+// 1110 - 976
+@media screen and (max-width: $xl) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .section__wrapper {
+    padding: 0 20px;
+  }
+
+  .shop__card {
+    padding: 25px 18px;
+  }
+
+  .feedback__item-icon {
+    right: 23px;
+  }
+}
+
+@media screen and (max-width: $lg) {
+  .section {
+    &__wrapper {
+      height: 400px;
+    }
+
+    &__img {
+      img {
+        width: 430px;
+        height: auto;
+      }
+
+      top: -10px;
+      right: 10px;
+
+      &::after {
+        width: 480px;
+        height: 480px;
+      }
+
+      &::before {
+        width: 680px;
+        height: 680px;
+      }
+    }
+
+    &__info-subtitle {
+      margin: 30px 0;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    &-main {
+      padding: 60px 0;
+    }
+  }
+
+  .shop {
+    &__flex {
+      display: block;
+      margin-bottom: 75px;
+
+      &-column:first-child {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__card {
+      position: relative;
+      padding: 18px 24px 18px 160px;
+      align-items: end;
+
+      &-title {
+        text-align: start;
+      }
+
+      &-img {
+        position: absolute;
+        left: 18px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  .feedback__item-icon {
+    opacity: 0.3;
+  }
+
+  .btn-section {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .footer {
+    &__sup {
+      padding: 24px 0;
+    }
+
+    &__sub {
+      padding: 14px 0;
+    }
+
+    &__flex {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: $md) {
+  .menu {
+    gap: 15px;
+
+    &-main {
+      flex-direction: column;
+      padding: 20px 12px;
+
+      &__column {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        > .menu__item {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .header__flex {
+    flex-direction: column;
+  }
+
+  .section {
+    &__wrapper {
+      height: 600px;
+    }
+
+    &__info {
+      top: 20px;
+      transform: translateY(0);
+    }
+
+    &__img {
+      img {
+        width: 540px;
+        height: auto;
+      }
+
+      top: 100px;
+      right: 50%;
+
+      transform: translateX(58%);
+
+      &::after {
+        width: 480px;
+        height: 480px;
+        transform: translate3d(-45%, -40%, 0);
+      }
+
+      &::before {
+        width: 680px;
+        height: 680px;
+        transform: translate3d(-45%, -40%, 0);
+      }
+    }
+
+    &__info-subtitle {
+      margin: 30px 0;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+    }
+
+    &-main {
+      padding: 60px 0;
+    }
+  }
+
+  .shop__flex-column {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feedback {
+    grid-template-columns: 380px;
+    grid-template-rows: repeat(2, 1fr);
+
+    justify-content: center;
+  }
+
+  .footer {
+    &__flex-item {
+      flex-direction: column;
+      gap: 15px;
+
+      line-height: 18px;
+    }
+
+    &__link,
+    &__link-phone {
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $sm) {
+  .header {
+    &__item:last-child {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    &__flex {
+      padding-right: 100px;
+      align-items: start;
+    }
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  .menu-main {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 80px;
+
+    align-items: end;
+    padding: 8px 12px;
+
+    &__column {
+      grid-template-columns: 1fr;
+      gap: 10px;
+
+      > .menu__item {
+        text-align: end;
+      }
+    }
+  }
+
+  .section {
+    &__img {
+      top: 120px;
+      right: 50%;
+    }
+    &__wrapper {
+      height: 640px;
+    }
+    &__info-subtitle {
+      margin: 10px 0 20px;
+    }
+  }
+
+  .feedback {
+    grid-template-columns: 1fr;
+
+    &__item {
+      padding: 30px 15px;
+
+      &-subtitle {
+        margin: 15px 0;
+      }
+    }
+
+    &__item-icon {
+      top: 38px;
+    }
+  }
+}
