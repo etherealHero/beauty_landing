@@ -1,9 +1,0 @@
-dist/
-node_modules/
-README.md
-package-lock.json
-.ignore
-**/*.{png,svg,map}
-gulpfile.js
-package.json
-.prettierrc.json

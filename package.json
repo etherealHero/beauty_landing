@@ -1,0 +1,35 @@
+{
+  "name": "beauty-landing",
+  "version": "1.0.0",
+  "description": "Beauty landing page",
+  "author": "etherealHero",
+  "homepage": "https://github.com/etherealHero/beauty_landing",
+  "license": "MIT",
+  "keywords": [
+    "landing",
+    "adaptive layout",
+    "gulp",
+    "scss"
+  ],
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "browser-sync": "^3.0.2",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-size": "^4.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.37.5"
+  }
+}
