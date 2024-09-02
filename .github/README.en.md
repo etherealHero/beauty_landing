@@ -56,7 +56,7 @@ This project is licensed under the MIT License. See [LICENSE](/LICENSE) for deta
 [home_ru]: README.md
 [home_en]: README.en.md
 [license]: /LICENSE
-[preview]: https://beauty-landing.vercel.app/
+[preview]: https://beauty-landing-etherealhero.vercel.app/
 [md_ui_kit]: https://gist.github.com/etherealHero/ffe9de043f3c2639e864b4fddec8e9e4
 [link0]: https://sass-scss.ru/
 [link1]: https://ru.bem.info/
